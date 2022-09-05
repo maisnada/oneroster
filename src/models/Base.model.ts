@@ -15,8 +15,7 @@ export abstract class Base {
         this.dateLastModified = dateLastModified;
 
         this.metadata = new TSMap<string, string | number>([
-            ["classification", "private"],
-            ["year", 2022]
+            ["classification", "private"]
         ]);
     }
 
